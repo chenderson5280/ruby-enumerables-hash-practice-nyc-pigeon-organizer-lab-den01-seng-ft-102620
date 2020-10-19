@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer (data)
-  final_result = data.each_with_object ({}) do  |(key, value), final_array|
+   data.each_with_object ({}) do  |(key, value), final_array|
   	   value.each  do |inner_key, name1|
   	       name1.each  do |name2|
   		if !final_array[name2]
